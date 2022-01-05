@@ -44,6 +44,15 @@ test("words that start with 2 or more consonants should move the consonants to t
 test("words that start with 2 or more consonants should move the consonants to the end and add 'ay'", () => {
   expect(translate("blue")).toEqual("ueblay");
 });
+test("words that start with 2 or more consonants should move the consonants to the end and add 'ay'", () => {
+  expect(translate("scrap")).toEqual("apscray");
+});
+test("words that start with 2 or more consonants should move the consonants to the end and add 'ay'", () => {
+  expect(translate("scream")).toEqual("eamscray");
+});
+test("words that start with 2 or more consonants should move the consonants to the end and add 'ay'", () => {
+  expect(translate("Shrimp")).toEqual("impshray");
+});
 test("input that does not contain a vowel should return a request that a word with a vowel be entered", () => {
   expect(translate("wwwwwww")).toEqual("Please enter a word with a vowel");
 });
