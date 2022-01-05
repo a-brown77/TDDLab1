@@ -1,0 +1,23 @@
+{
+  "name": "tddlab1-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pigLatin.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node pigLatin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-brown77/TDDLab1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-brown77/TDDLab1/issues"
+  },
+  "homepage": "https://github.com/a-brown77/TDDLab1#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
